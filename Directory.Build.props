@@ -22,9 +22,9 @@
 	</PropertyGroup>
 
 	<PropertyGroup Label="Package Info">
-		<Product>Dumpify</Product>
+		<Product>Scetrov.DumpifyFork</Product>
 		<Authors>Moaid Hathot</Authors>
-		<Title>Dumpify</Title>
+		<Title>Scetrov.DumpifyFork</Title>
 		<Owners>Moaid Hathot</Owners>
 		<Copyright>@ Moaid Hathot. All rights reserved.</Copyright>
 		<Description>A library that can dump any object to the console in a readable, structured way. No need for overriding `ToString`.</Description>
