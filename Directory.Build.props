@@ -9,10 +9,10 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>Scetrov.DumpifyFork</PackageId>
+		<PackageId>$(AssemblyName)</PackageId>
 		<RootNamespace>$(AssemblyName)</RootNamespace>
 		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
-		<BaseName>MoaidHathot.Dumpify</BaseName>
+		<BaseName>Scetrov.Dumpify</BaseName>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Settings">

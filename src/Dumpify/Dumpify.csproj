@@ -4,6 +4,7 @@
 		<TargetFrameworks>net9.0;netstandard2.1;netstandard2.0</TargetFrameworks>
 		<PackageReadmeFile>nuget.md</PackageReadmeFile>
 		<PackageIcon>Dumpify-logo-styled.png</PackageIcon>
+		<AssemblyName>Scetrov.DumpifyFork</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>
