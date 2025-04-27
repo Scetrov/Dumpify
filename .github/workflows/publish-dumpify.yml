@@ -33,3 +33,10 @@ jobs:
       with:
         name: packages
         path: "./src/Dumpify/bin/Release/Dumpify.${{ github.event.inputs.version }}.nupkg"
+
+    - name: Publish NuGet Package to GitHub Packages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: dotnet nuget push ./src/Dumpify/*.nupkg --api-key $GITHUB_TOKEN --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
+      working-directory: ./src
+      
